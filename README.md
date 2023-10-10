@@ -6,12 +6,14 @@ This api includer 3 endpoints to create, get a list, or get a single Product obj
 To run this api:
 
 1. Install the dependencies in a local virtual environment.
-    - If using poetry just go to root folder and execute poetry install.
-    - If using pip a requirements.txt is provided. Use it to create a virtual environment with those dependencies.
+    - If you are using poetry just go to root folder and execute:
+      `poetry install`
+    - If you prefer pip a requirements.txt is provided. Use it to create a virtual environment with those dependencies.
 
 2. Execute the app in a local server.
-    - Open your virtual environment. You can do it with poetry executing the command:
-        `poetry shell`
+    - Open your virtual environment. 
+        You can do it with poetry executing the command:
+            `poetry shell`
     - From root directory, execute the uvicorn server command:
         `uvicorn challenge.main:app --reload`
 
