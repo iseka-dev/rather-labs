@@ -1,7 +1,7 @@
 # agenda-back
 Agenda app backend
 
-This api includer 3 endpoints to create, get a list, or get a single Product object. 
+This api includes 3 endpoints to create, get a list, or get a single Product object. 
 
 To run this api:
 
